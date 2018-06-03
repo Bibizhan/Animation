@@ -1,0 +1,15 @@
+PODS:
+  - Cartography (3.0.1)
+  - hkMotus (1.0.1)
+
+DEPENDENCIES:
+  - Cartography
+  - hkMotus
+
+SPEC CHECKSUMS:
+  Cartography: f8c899bb0f5cf20758644a8eea59a75e98a03a5d
+  hkMotus: 5102fdf8af962ff5d0a752f99d1a3a15dbe89d02
+
+PODFILE CHECKSUM: 5759000bc7b0f7050018b51f1772080d00ed5417
+
+COCOAPODS: 1.4.0

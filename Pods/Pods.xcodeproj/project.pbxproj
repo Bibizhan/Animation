@@ -1,0 +1,847 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		033E20123508ACA1151479485BEC8D90 /* LayoutProxy+TypeErasure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2FDA42F2F9456A8B69246A4AC9AD6D /* LayoutProxy+TypeErasure.swift */; };
+		0739B8BF39538E41B6C747EDE71114F3 /* Constrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C8A31A48703BECCC22361EB80D2AF6 /* Constrain.swift */; };
+		078D75FC8795FA3EBD22377BC890520B /* Distribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E0BFCFDD35BDE791FCC145F5CB53B3 /* Distribute.swift */; };
+		1C92A98E34D0E29E787071F0B75401E5 /* Cartography-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C1D9A28FFB09C11CC225AE8D3E1CD213 /* Cartography-dummy.m */; };
+		22C18133E55CC4E0633B633F3912F097 /* Cartography-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B44299083E842FB5E14D7E8097B1B52 /* Cartography-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26D9D26B1D4A7C48E1DFE6C4697A7EB3 /* Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90FC7F7024BEB562EF3B10DF2923451 /* Size.swift */; };
+		27BEB6D60B638B2F7E7086598B419CB3 /* LayoutGuideProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AD8686FAFCAAF30DC1FB4548E07009 /* LayoutGuideProxy.swift */; };
+		2D199EED016146A54245163E49C05C7F /* hkMotus-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 961539AEACA276853B956D96312AD28D /* hkMotus-dummy.m */; };
+		2F0BACBF59B8E70E03A9F9F1487F663F /* hkMotus-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B0BEDAE3865D88BACC87B57FA4B4B83 /* hkMotus-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		324585632CF11937118381BA497A1300 /* UITableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C030BA9061E1971028283BE02359517 /* UITableViewExtension.swift */; };
+		33E91E78F43301F168B42DB67C04CDC4 /* Coefficients.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F4FF3EF3FA6CA8DAE13A3EE3927070 /* Coefficients.swift */; };
+		370EA4B00C3E1F71C87314271179D06D /* Property.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A82C25BDE781B2415BEF87F353269D0 /* Property.swift */; };
+		44279488206961A71665C70FD3BD9FCD /* Point.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE684B01BCFBD167A59E719F94ADC830 /* Point.swift */; };
+		52C3E8081BB80AA34FEF1659F24533C2 /* ViewProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE4E478AF2715A5629DD6BCD0DA4EAC /* ViewProxy.swift */; };
+		551EDA7C2AEF5DBDE54A1E04D3B66DEF /* ConstraintGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A15693AD8EC07962C3A3050C9499DEA /* ConstraintGroup.swift */; };
+		55400D0C9BD6EA48785161BD69D752A7 /* Pods-Animation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A9955A0A7EE825F6B2ADDBB479648B2C /* Pods-Animation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		58B00C7BCF27BE64587847CA77E9DD11 /* Align.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C248BDC2EC1499C120C492B9BB2219 /* Align.swift */; };
+		5EF12917D0EE74E219E2379BAA89B274 /* Pods-Animation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C6F28CE03575EEEF95DB6491BE54F5 /* Pods-Animation-dummy.m */; };
+		6303953B4072C1B9B5BE9038CD1A5858 /* LayoutProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E4E86878E2BA898BDC8385C78DD221 /* LayoutProxy.swift */; };
+		64C1C1BBD53C2B17073E4473687A853A /* LayoutGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF60BBF9EE241ECDF3889D55F01D2340 /* LayoutGuide.swift */; };
+		6F4FE3B61F3F4136F1C403AD21C331D7 /* Context.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E9D83189A5017AE259E67F878E4FD1 /* Context.swift */; };
+		73E44A12D3981ECEB5146B0CDAA0C0C3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		75A09744CB87DB237A3D3FA76FC9AB9A /* Edges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC4B2F6C9E4BE76A13724D0728F02CB /* Edges.swift */; };
+		7BBAA7D5001ABB0D1516ACAF7F51F4B5 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F761F8C5F0FE054CB04D5E70897D61B /* View.swift */; };
+		869BF762B9D0699ABF4024F1DED0AD0E /* AutoresizingMaskLayoutProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BDECE932328E81FB51A83605EDF7D4 /* AutoresizingMaskLayoutProxy.swift */; };
+		94C7D2A64168F83FDD3F1FDD86309462 /* Edge.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E1ADB5FD02A224B5433215AD3E1AA2 /* Edge.swift */; };
+		9C6E1370B7332CEA8408E407F24570B5 /* Expression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9088EC31C7D409A2DB4204FE1A6625 /* Expression.swift */; };
+		9DE7AC7E9424287CE00664C9EA68D2D2 /* LayoutSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC7FEA17E1CD7764591FFF48BC83382 /* LayoutSupport.swift */; };
+		A37DED66695DC9C57FD67849B88A3B7C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		B4DBC3F172AFEA9A0F86A1428D235BAB /* Dimension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F052EB1FA46959D5EA788E592EC0A7 /* Dimension.swift */; };
+		B4E773A62BECD3F527F18505B81412AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		BAA82517E186455BBE3B74D44E5EDD5D /* LayoutItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE2264CC0B9BC043ACF84BF7F7E9897 /* LayoutItem.swift */; };
+		C29DEF648BD32E9E8DA8683834CF75B8 /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = AFAEE15644699F229A7F7D9D33B38E58 /* Info.plist */; };
+		DB9F3857E166A3EAC8EC5646023E7B8E /* Compound.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3EFBED369533E3F9A903ABA2F927AE0 /* Compound.swift */; };
+		E2F636932DC549ECAC060149AE2925A8 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089E4F550425CD7834EC19584CD9393B /* Extensions.swift */; };
+		E3CB62DD92CACCA6D28E01C540737795 /* hkMotus.h in Headers */ = {isa = PBXBuildFile; fileRef = 113748E22A4694B5A89C38E6C6FE3678 /* hkMotus.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E79C8C2851495884D91FEFFFC53FAB45 /* LayoutSupportProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0F486E15C1B63D95545C6DD6C1E420 /* LayoutSupportProxy.swift */; };
+		F14347E3AC3A254F7A424CCB7FCF512B /* Priority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726E72A69431404367CB4C4040C5C89F /* Priority.swift */; };
+		F435B4C2D5E6E7B34471B69DAC6D5E51 /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819B5890A3D74B1023FEF84522D7612C /* Constraint.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2966C19CB6F144AFEB8291E457C6D0A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05B5E6B6BF53C2C31E616E4C5644E8BB;
+			remoteInfo = Cartography;
+		};
+		7278D632A9D965996A3270A084516679 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70D6A89757B75DD4AF173A3CA0C73E62;
+			remoteInfo = hkMotus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02436B9D4F7BF30EB5DF63DF91FB914F /* Pods-Animation-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Animation-acknowledgements.plist"; sourceTree = "<group>"; };
+		04E4E86878E2BA898BDC8385C78DD221 /* LayoutProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutProxy.swift; path = Cartography/LayoutProxy.swift; sourceTree = "<group>"; };
+		06F6DA7C77C04924D5595F0193BFA72E /* Cartography.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Cartography.framework; path = Cartography.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		089E4F550425CD7834EC19584CD9393B /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = Cartography/Extensions.swift; sourceTree = "<group>"; };
+		0AA7F99881E3CE9DFE73132A1AA3EE8B /* Cartography.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Cartography.xcconfig; sourceTree = "<group>"; };
+		0F761F8C5F0FE054CB04D5E70897D61B /* View.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = View.swift; path = Cartography/View.swift; sourceTree = "<group>"; };
+		113748E22A4694B5A89C38E6C6FE3678 /* hkMotus.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = hkMotus.h; path = hkMotus/hkMotus.h; sourceTree = "<group>"; };
+		16FE036DE4F51FE50A9B6041D1B36B88 /* hkMotus.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = hkMotus.modulemap; sourceTree = "<group>"; };
+		1A687D4C312460B53BF23FCBA4551EF8 /* Pods-Animation-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Animation-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1C030BA9061E1971028283BE02359517 /* UITableViewExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UITableViewExtension.swift; path = hkMotus/UITableViewExtension.swift; sourceTree = "<group>"; };
+		1CC4B2F6C9E4BE76A13724D0728F02CB /* Edges.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Edges.swift; path = Cartography/Edges.swift; sourceTree = "<group>"; };
+		1DDB5CB125FB9DAD98840B7E9B018C64 /* hkMotus.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = hkMotus.xcconfig; sourceTree = "<group>"; };
+		22F052EB1FA46959D5EA788E592EC0A7 /* Dimension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Dimension.swift; path = Cartography/Dimension.swift; sourceTree = "<group>"; };
+		2EC49227FE5E722FAA21F10D53F79B06 /* Pods-Animation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Animation.modulemap"; sourceTree = "<group>"; };
+		3A2FDA42F2F9456A8B69246A4AC9AD6D /* LayoutProxy+TypeErasure.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "LayoutProxy+TypeErasure.swift"; path = "Cartography/LayoutProxy+TypeErasure.swift"; sourceTree = "<group>"; };
+		3B44299083E842FB5E14D7E8097B1B52 /* Cartography-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Cartography-umbrella.h"; sourceTree = "<group>"; };
+		3FC7FEA17E1CD7764591FFF48BC83382 /* LayoutSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutSupport.swift; path = Cartography/LayoutSupport.swift; sourceTree = "<group>"; };
+		40E9D83189A5017AE259E67F878E4FD1 /* Context.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Context.swift; path = Cartography/Context.swift; sourceTree = "<group>"; };
+		4B0BEDAE3865D88BACC87B57FA4B4B83 /* hkMotus-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "hkMotus-umbrella.h"; sourceTree = "<group>"; };
+		52AD8686FAFCAAF30DC1FB4548E07009 /* LayoutGuideProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutGuideProxy.swift; path = Cartography/LayoutGuideProxy.swift; sourceTree = "<group>"; };
+		5A9088EC31C7D409A2DB4204FE1A6625 /* Expression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Expression.swift; path = Cartography/Expression.swift; sourceTree = "<group>"; };
+		5BE2264CC0B9BC043ACF84BF7F7E9897 /* LayoutItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutItem.swift; path = Cartography/LayoutItem.swift; sourceTree = "<group>"; };
+		6086FB3133D34D8B89491908E9132B94 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63C8A31A48703BECCC22361EB80D2AF6 /* Constrain.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constrain.swift; path = Cartography/Constrain.swift; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6A15693AD8EC07962C3A3050C9499DEA /* ConstraintGroup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintGroup.swift; path = Cartography/ConstraintGroup.swift; sourceTree = "<group>"; };
+		726E72A69431404367CB4C4040C5C89F /* Priority.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Priority.swift; path = Cartography/Priority.swift; sourceTree = "<group>"; };
+		743D103CA34C4EDF1C9270EA2A428202 /* Pods-Animation-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Animation-resources.sh"; sourceTree = "<group>"; };
+		7DEB94874886AA45006E62D99B434E53 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E46AF317424244877DEA094BFA6526E /* Pods-Animation-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Animation-frameworks.sh"; sourceTree = "<group>"; };
+		819B5890A3D74B1023FEF84522D7612C /* Constraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constraint.swift; path = Cartography/Constraint.swift; sourceTree = "<group>"; };
+		8344A384F14A63CF1B6798C8E2702432 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84E0BFCFDD35BDE791FCC145F5CB53B3 /* Distribute.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Distribute.swift; path = Cartography/Distribute.swift; sourceTree = "<group>"; };
+		88BDECE932328E81FB51A83605EDF7D4 /* AutoresizingMaskLayoutProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AutoresizingMaskLayoutProxy.swift; path = Cartography/AutoresizingMaskLayoutProxy.swift; sourceTree = "<group>"; };
+		8CC31B7D6278E4E43B63CC56C7EE25AC /* Pods_Animation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Animation.framework; path = "Pods-Animation.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		961539AEACA276853B956D96312AD28D /* hkMotus-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "hkMotus-dummy.m"; sourceTree = "<group>"; };
+		9857C021543F5961E9CF205C26E2C373 /* hkMotus-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "hkMotus-prefix.pch"; sourceTree = "<group>"; };
+		9A82C25BDE781B2415BEF87F353269D0 /* Property.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Property.swift; path = Cartography/Property.swift; sourceTree = "<group>"; };
+		A1F4FF3EF3FA6CA8DAE13A3EE3927070 /* Coefficients.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Coefficients.swift; path = Cartography/Coefficients.swift; sourceTree = "<group>"; };
+		A5C248BDC2EC1499C120C492B9BB2219 /* Align.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Align.swift; path = Cartography/Align.swift; sourceTree = "<group>"; };
+		A90FC7F7024BEB562EF3B10DF2923451 /* Size.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Size.swift; path = Cartography/Size.swift; sourceTree = "<group>"; };
+		A9955A0A7EE825F6B2ADDBB479648B2C /* Pods-Animation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Animation-umbrella.h"; sourceTree = "<group>"; };
+		A9D21E933BF1B1386C79871A6CA5591D /* Pods-Animation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Animation.debug.xcconfig"; sourceTree = "<group>"; };
+		AECB5A0D985198FFD7969831417F3CD0 /* Cartography.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Cartography.modulemap; sourceTree = "<group>"; };
+		AF60BBF9EE241ECDF3889D55F01D2340 /* LayoutGuide.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutGuide.swift; path = Cartography/LayoutGuide.swift; sourceTree = "<group>"; };
+		AFAEE15644699F229A7F7D9D33B38E58 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = hkMotus/Info.plist; sourceTree = "<group>"; };
+		B2C6F28CE03575EEEF95DB6491BE54F5 /* Pods-Animation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Animation-dummy.m"; sourceTree = "<group>"; };
+		B77151A827E3EDB858540A0F0D80F628 /* hkMotus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = hkMotus.framework; path = hkMotus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0E1ADB5FD02A224B5433215AD3E1AA2 /* Edge.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Edge.swift; path = Cartography/Edge.swift; sourceTree = "<group>"; };
+		C1D9A28FFB09C11CC225AE8D3E1CD213 /* Cartography-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Cartography-dummy.m"; sourceTree = "<group>"; };
+		DE684B01BCFBD167A59E719F94ADC830 /* Point.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Point.swift; path = Cartography/Point.swift; sourceTree = "<group>"; };
+		E3EFBED369533E3F9A903ABA2F927AE0 /* Compound.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Compound.swift; path = Cartography/Compound.swift; sourceTree = "<group>"; };
+		EBE4E478AF2715A5629DD6BCD0DA4EAC /* ViewProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ViewProxy.swift; path = Cartography/ViewProxy.swift; sourceTree = "<group>"; };
+		EED776B207E03AE3A5B4FDAE3FCE82E4 /* Pods-Animation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Animation.release.xcconfig"; sourceTree = "<group>"; };
+		F82E1D6299A1BF3C24101B6439540864 /* Cartography-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Cartography-prefix.pch"; sourceTree = "<group>"; };
+		FD0F486E15C1B63D95545C6DD6C1E420 /* LayoutSupportProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutSupportProxy.swift; path = Cartography/LayoutSupportProxy.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		586E3AE0527AB279F2472B40F9FE5FD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73E44A12D3981ECEB5146B0CDAA0C0C3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		637BA3A3E41D2820FAD92BC8675D3692 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4E773A62BECD3F527F18505B81412AA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66F11910B4682C55BD5811F333E55F89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A37DED66695DC9C57FD67849B88A3B7C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		229CF5A98C6B87F70D439870AD198C00 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				16FE036DE4F51FE50A9B6041D1B36B88 /* hkMotus.modulemap */,
+				1DDB5CB125FB9DAD98840B7E9B018C64 /* hkMotus.xcconfig */,
+				961539AEACA276853B956D96312AD28D /* hkMotus-dummy.m */,
+				9857C021543F5961E9CF205C26E2C373 /* hkMotus-prefix.pch */,
+				4B0BEDAE3865D88BACC87B57FA4B4B83 /* hkMotus-umbrella.h */,
+				7DEB94874886AA45006E62D99B434E53 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/hkMotus";
+			sourceTree = "<group>";
+		};
+		2DC7625011A39F81F0D397D1BEFEAFBA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				06F6DA7C77C04924D5595F0193BFA72E /* Cartography.framework */,
+				B77151A827E3EDB858540A0F0D80F628 /* hkMotus.framework */,
+				8CC31B7D6278E4E43B63CC56C7EE25AC /* Pods_Animation.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		571BAACB90D9995D41526879FE276E06 /* Pods-Animation */ = {
+			isa = PBXGroup;
+			children = (
+				6086FB3133D34D8B89491908E9132B94 /* Info.plist */,
+				2EC49227FE5E722FAA21F10D53F79B06 /* Pods-Animation.modulemap */,
+				1A687D4C312460B53BF23FCBA4551EF8 /* Pods-Animation-acknowledgements.markdown */,
+				02436B9D4F7BF30EB5DF63DF91FB914F /* Pods-Animation-acknowledgements.plist */,
+				B2C6F28CE03575EEEF95DB6491BE54F5 /* Pods-Animation-dummy.m */,
+				7E46AF317424244877DEA094BFA6526E /* Pods-Animation-frameworks.sh */,
+				743D103CA34C4EDF1C9270EA2A428202 /* Pods-Animation-resources.sh */,
+				A9955A0A7EE825F6B2ADDBB479648B2C /* Pods-Animation-umbrella.h */,
+				A9D21E933BF1B1386C79871A6CA5591D /* Pods-Animation.debug.xcconfig */,
+				EED776B207E03AE3A5B4FDAE3FCE82E4 /* Pods-Animation.release.xcconfig */,
+			);
+			name = "Pods-Animation";
+			path = "Target Support Files/Pods-Animation";
+			sourceTree = "<group>";
+		};
+		5E5F62EBDA337130B2A70B211C6AF021 /* Cartography */ = {
+			isa = PBXGroup;
+			children = (
+				A5C248BDC2EC1499C120C492B9BB2219 /* Align.swift */,
+				88BDECE932328E81FB51A83605EDF7D4 /* AutoresizingMaskLayoutProxy.swift */,
+				A1F4FF3EF3FA6CA8DAE13A3EE3927070 /* Coefficients.swift */,
+				E3EFBED369533E3F9A903ABA2F927AE0 /* Compound.swift */,
+				63C8A31A48703BECCC22361EB80D2AF6 /* Constrain.swift */,
+				819B5890A3D74B1023FEF84522D7612C /* Constraint.swift */,
+				6A15693AD8EC07962C3A3050C9499DEA /* ConstraintGroup.swift */,
+				40E9D83189A5017AE259E67F878E4FD1 /* Context.swift */,
+				22F052EB1FA46959D5EA788E592EC0A7 /* Dimension.swift */,
+				84E0BFCFDD35BDE791FCC145F5CB53B3 /* Distribute.swift */,
+				C0E1ADB5FD02A224B5433215AD3E1AA2 /* Edge.swift */,
+				1CC4B2F6C9E4BE76A13724D0728F02CB /* Edges.swift */,
+				5A9088EC31C7D409A2DB4204FE1A6625 /* Expression.swift */,
+				089E4F550425CD7834EC19584CD9393B /* Extensions.swift */,
+				AF60BBF9EE241ECDF3889D55F01D2340 /* LayoutGuide.swift */,
+				52AD8686FAFCAAF30DC1FB4548E07009 /* LayoutGuideProxy.swift */,
+				5BE2264CC0B9BC043ACF84BF7F7E9897 /* LayoutItem.swift */,
+				04E4E86878E2BA898BDC8385C78DD221 /* LayoutProxy.swift */,
+				3A2FDA42F2F9456A8B69246A4AC9AD6D /* LayoutProxy+TypeErasure.swift */,
+				3FC7FEA17E1CD7764591FFF48BC83382 /* LayoutSupport.swift */,
+				FD0F486E15C1B63D95545C6DD6C1E420 /* LayoutSupportProxy.swift */,
+				DE684B01BCFBD167A59E719F94ADC830 /* Point.swift */,
+				726E72A69431404367CB4C4040C5C89F /* Priority.swift */,
+				9A82C25BDE781B2415BEF87F353269D0 /* Property.swift */,
+				A90FC7F7024BEB562EF3B10DF2923451 /* Size.swift */,
+				0F761F8C5F0FE054CB04D5E70897D61B /* View.swift */,
+				EBE4E478AF2715A5629DD6BCD0DA4EAC /* ViewProxy.swift */,
+				E80CE9DEFA694B06F99F56814C64C1B7 /* Support Files */,
+			);
+			name = Cartography;
+			path = Cartography;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				8800C976DDCB2E2AFB4E512AE3D0021B /* Pods */,
+				2DC7625011A39F81F0D397D1BEFEAFBA /* Products */,
+				7F5EA7CE35DF317ED7B6084E47E07725 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7F5EA7CE35DF317ED7B6084E47E07725 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				571BAACB90D9995D41526879FE276E06 /* Pods-Animation */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		8800C976DDCB2E2AFB4E512AE3D0021B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5E5F62EBDA337130B2A70B211C6AF021 /* Cartography */,
+				B7838EA445ECCC95CD2235950D36C012 /* hkMotus */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B7838EA445ECCC95CD2235950D36C012 /* hkMotus */ = {
+			isa = PBXGroup;
+			children = (
+				113748E22A4694B5A89C38E6C6FE3678 /* hkMotus.h */,
+				AFAEE15644699F229A7F7D9D33B38E58 /* Info.plist */,
+				1C030BA9061E1971028283BE02359517 /* UITableViewExtension.swift */,
+				229CF5A98C6B87F70D439870AD198C00 /* Support Files */,
+			);
+			name = hkMotus;
+			path = hkMotus;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E80CE9DEFA694B06F99F56814C64C1B7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AECB5A0D985198FFD7969831417F3CD0 /* Cartography.modulemap */,
+				0AA7F99881E3CE9DFE73132A1AA3EE8B /* Cartography.xcconfig */,
+				C1D9A28FFB09C11CC225AE8D3E1CD213 /* Cartography-dummy.m */,
+				F82E1D6299A1BF3C24101B6439540864 /* Cartography-prefix.pch */,
+				3B44299083E842FB5E14D7E8097B1B52 /* Cartography-umbrella.h */,
+				8344A384F14A63CF1B6798C8E2702432 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Cartography";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		25CA5953DAA6B9A0199196D07E97695D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55400D0C9BD6EA48785161BD69D752A7 /* Pods-Animation-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B7909E5BB787E89429A35A7198AC199 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22C18133E55CC4E0633B633F3912F097 /* Cartography-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3745A78B7A831EBAC9B3BCCE2E76B5A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F0BACBF59B8E70E03A9F9F1487F663F /* hkMotus-umbrella.h in Headers */,
+				E3CB62DD92CACCA6D28E01C540737795 /* hkMotus.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		05B5E6B6BF53C2C31E616E4C5644E8BB /* Cartography */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9BAA343D12FE6672E7011D9FB12285B /* Build configuration list for PBXNativeTarget "Cartography" */;
+			buildPhases = (
+				43377B59D0D68F9FC09F2D7CA5D04AC4 /* Sources */,
+				66F11910B4682C55BD5811F333E55F89 /* Frameworks */,
+				3B7909E5BB787E89429A35A7198AC199 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cartography;
+			productName = Cartography;
+			productReference = 06F6DA7C77C04924D5595F0193BFA72E /* Cartography.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		70D6A89757B75DD4AF173A3CA0C73E62 /* hkMotus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5619D6DEA192F91B157788D6FD5AE443 /* Build configuration list for PBXNativeTarget "hkMotus" */;
+			buildPhases = (
+				E31D933CC25D9235AAFE1FE0B41E07AA /* Sources */,
+				637BA3A3E41D2820FAD92BC8675D3692 /* Frameworks */,
+				F3745A78B7A831EBAC9B3BCCE2E76B5A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hkMotus;
+			productName = hkMotus;
+			productReference = B77151A827E3EDB858540A0F0D80F628 /* hkMotus.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8DCE3505B190F569E0FB413049418F1A /* Pods-Animation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11038630450DC30416C3FE5B764D0391 /* Build configuration list for PBXNativeTarget "Pods-Animation" */;
+			buildPhases = (
+				2B39EA7754D9F938D3280A976979AFB4 /* Sources */,
+				586E3AE0527AB279F2472B40F9FE5FD7 /* Frameworks */,
+				25CA5953DAA6B9A0199196D07E97695D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0522367FD613C30CE884B3D35F11BBA1 /* PBXTargetDependency */,
+				A76FA1B6139A0D4A057431126B1D3BFD /* PBXTargetDependency */,
+			);
+			name = "Pods-Animation";
+			productName = "Pods-Animation";
+			productReference = 8CC31B7D6278E4E43B63CC56C7EE25AC /* Pods_Animation.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 2DC7625011A39F81F0D397D1BEFEAFBA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				05B5E6B6BF53C2C31E616E4C5644E8BB /* Cartography */,
+				70D6A89757B75DD4AF173A3CA0C73E62 /* hkMotus */,
+				8DCE3505B190F569E0FB413049418F1A /* Pods-Animation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B39EA7754D9F938D3280A976979AFB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EF12917D0EE74E219E2379BAA89B274 /* Pods-Animation-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43377B59D0D68F9FC09F2D7CA5D04AC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58B00C7BCF27BE64587847CA77E9DD11 /* Align.swift in Sources */,
+				869BF762B9D0699ABF4024F1DED0AD0E /* AutoresizingMaskLayoutProxy.swift in Sources */,
+				1C92A98E34D0E29E787071F0B75401E5 /* Cartography-dummy.m in Sources */,
+				33E91E78F43301F168B42DB67C04CDC4 /* Coefficients.swift in Sources */,
+				DB9F3857E166A3EAC8EC5646023E7B8E /* Compound.swift in Sources */,
+				0739B8BF39538E41B6C747EDE71114F3 /* Constrain.swift in Sources */,
+				F435B4C2D5E6E7B34471B69DAC6D5E51 /* Constraint.swift in Sources */,
+				551EDA7C2AEF5DBDE54A1E04D3B66DEF /* ConstraintGroup.swift in Sources */,
+				6F4FE3B61F3F4136F1C403AD21C331D7 /* Context.swift in Sources */,
+				B4DBC3F172AFEA9A0F86A1428D235BAB /* Dimension.swift in Sources */,
+				078D75FC8795FA3EBD22377BC890520B /* Distribute.swift in Sources */,
+				94C7D2A64168F83FDD3F1FDD86309462 /* Edge.swift in Sources */,
+				75A09744CB87DB237A3D3FA76FC9AB9A /* Edges.swift in Sources */,
+				9C6E1370B7332CEA8408E407F24570B5 /* Expression.swift in Sources */,
+				E2F636932DC549ECAC060149AE2925A8 /* Extensions.swift in Sources */,
+				64C1C1BBD53C2B17073E4473687A853A /* LayoutGuide.swift in Sources */,
+				27BEB6D60B638B2F7E7086598B419CB3 /* LayoutGuideProxy.swift in Sources */,
+				BAA82517E186455BBE3B74D44E5EDD5D /* LayoutItem.swift in Sources */,
+				033E20123508ACA1151479485BEC8D90 /* LayoutProxy+TypeErasure.swift in Sources */,
+				6303953B4072C1B9B5BE9038CD1A5858 /* LayoutProxy.swift in Sources */,
+				9DE7AC7E9424287CE00664C9EA68D2D2 /* LayoutSupport.swift in Sources */,
+				E79C8C2851495884D91FEFFFC53FAB45 /* LayoutSupportProxy.swift in Sources */,
+				44279488206961A71665C70FD3BD9FCD /* Point.swift in Sources */,
+				F14347E3AC3A254F7A424CCB7FCF512B /* Priority.swift in Sources */,
+				370EA4B00C3E1F71C87314271179D06D /* Property.swift in Sources */,
+				26D9D26B1D4A7C48E1DFE6C4697A7EB3 /* Size.swift in Sources */,
+				7BBAA7D5001ABB0D1516ACAF7F51F4B5 /* View.swift in Sources */,
+				52C3E8081BB80AA34FEF1659F24533C2 /* ViewProxy.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E31D933CC25D9235AAFE1FE0B41E07AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D199EED016146A54245163E49C05C7F /* hkMotus-dummy.m in Sources */,
+				C29DEF648BD32E9E8DA8683834CF75B8 /* Info.plist in Sources */,
+				324585632CF11937118381BA497A1300 /* UITableViewExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0522367FD613C30CE884B3D35F11BBA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Cartography;
+			target = 05B5E6B6BF53C2C31E616E4C5644E8BB /* Cartography */;
+			targetProxy = 2966C19CB6F144AFEB8291E457C6D0A2 /* PBXContainerItemProxy */;
+		};
+		A76FA1B6139A0D4A057431126B1D3BFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = hkMotus;
+			target = 70D6A89757B75DD4AF173A3CA0C73E62 /* hkMotus */;
+			targetProxy = 7278D632A9D965996A3270A084516679 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		17305A3B58F94DE2D3E18450A4E6A622 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EED776B207E03AE3A5B4FDAE3FCE82E4 /* Pods-Animation.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Animation/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Animation/Pods-Animation.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Animation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2354A672E25602066C828BC197A54F3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9D21E933BF1B1386C79871A6CA5591D /* Pods-Animation.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Animation/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Animation/Pods-Animation.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Animation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		31D24A48E7C74AB9025AEDE9CC094651 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DDB5CB125FB9DAD98840B7E9B018C64 /* hkMotus.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/hkMotus/hkMotus-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/hkMotus/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/hkMotus/hkMotus.modulemap";
+				PRODUCT_NAME = hkMotus;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		323A24856F1A4871A780301AF5C02A2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		36FF446DE0ED1E94C219D7F715DE13FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AA7F99881E3CE9DFE73132A1AA3EE8B /* Cartography.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Cartography/Cartography-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Cartography/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Cartography/Cartography.modulemap";
+				PRODUCT_NAME = Cartography;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6234E30423B84368C3AD2A4834167B91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AA7F99881E3CE9DFE73132A1AA3EE8B /* Cartography.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Cartography/Cartography-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Cartography/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Cartography/Cartography.modulemap";
+				PRODUCT_NAME = Cartography;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B4C5031DAA49511821A2DAB0AFCFBCA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DDB5CB125FB9DAD98840B7E9B018C64 /* hkMotus.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/hkMotus/hkMotus-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/hkMotus/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/hkMotus/hkMotus.modulemap";
+				PRODUCT_NAME = hkMotus;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA33F186435244FD0FD5B7325332656C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11038630450DC30416C3FE5B764D0391 /* Build configuration list for PBXNativeTarget "Pods-Animation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2354A672E25602066C828BC197A54F3E /* Debug */,
+				17305A3B58F94DE2D3E18450A4E6A622 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				323A24856F1A4871A780301AF5C02A2A /* Debug */,
+				CA33F186435244FD0FD5B7325332656C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5619D6DEA192F91B157788D6FD5AE443 /* Build configuration list for PBXNativeTarget "hkMotus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31D24A48E7C74AB9025AEDE9CC094651 /* Debug */,
+				B4C5031DAA49511821A2DAB0AFCFBCA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9BAA343D12FE6672E7011D9FB12285B /* Build configuration list for PBXNativeTarget "Cartography" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36FF446DE0ED1E94C219D7F715DE13FA /* Debug */,
+				6234E30423B84368C3AD2A4834167B91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
